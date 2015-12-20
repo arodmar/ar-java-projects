@@ -1,0 +1,14 @@
+apply plugin: "war"
+apply plugin: "jetty"
+
+dependencies {
+   compile project(":utils")
+   compile "javax.servlet:servlet-api:2.5"
+   compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.+'
+   compile 'org.glassfish.jersey.media:jersey-media-moxy:2.+'
+   //org.glassfish.jersey.media:jersey-media-json-jackson:2.14
+}
+
+httpPort = 8015
+stopPort = 9015
+stopKey = "stopKey"

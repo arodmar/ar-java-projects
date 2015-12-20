@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="lib" path="C:/z2013/Java/gson-2.5.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/javax.ws.rs-api-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/z2013/Java/jsoup-1.8.3.jar"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/z2013/Java/NetBeansProjects/UrlTemplateGenerator/build/libs/url-template-generator-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/z2013/Java/NetBeansProjects/DrawManager/build/libs/ardevcenter-draw-manager-1.0.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ardevcenter.drawmanager.lnb.LnbDrawAdapterIT" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-12-05T00:31:26" hostname="HDQITPRO89" time="1.585">
+  <properties/>
+  <testcase name="integrationTest_GetLnbDrawData_FirstPrize_2015_10_30" classname="com.ardevcenter.drawmanager.lnb.LnbDrawAdapterIT" time="1.585"/>
+  <system-out><![CDATA[getLnbDrawData
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

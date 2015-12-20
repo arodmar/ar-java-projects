@@ -1,0 +1,6 @@
+<root><Response>1831 08OCT WECPNR/Q20       0</Response></root><root><Response>1837 08OCT WECPNR/Q20       0</Response></root>
+<root><Response>1837 08OCT WECPNR/Q20       0</Response></root>
+<root><Response>1841 08OCT WECPNR/Q20       0</Response></root>
+<root><Response>1317 09OCT WECPNR/Q20       0</Response></root>
+<root><Response>A IN CM                </Response></root>
+<root><Response>1356 09OCT WECPNR/Q20       1</Response></root>

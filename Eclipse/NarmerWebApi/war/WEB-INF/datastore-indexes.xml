@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes
+  autoGenerate="true">
+    <datastore-index kind="LnbDraw" ancestor="false" source="manual">   
+        <property name="__key__" direction="asc"/>
+        <property name="drawID" direction="asc"/>
+        
+    	<property name="drawDate" direction="asc" />
+        <property name="drawType" direction="asc" />
+        <property name="firstNumber" direction="asc" />
+        <property name="secondNumber" direction="asc" />
+        <property name="thirdNumber" direction="asc" />
+    </datastore-index>
+</datastore-indexes>

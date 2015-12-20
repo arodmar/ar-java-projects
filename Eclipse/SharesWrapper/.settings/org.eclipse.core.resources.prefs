@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/com/copaair/webservices/ConnectResponseConnectResult.java=UTF-8
+encoding//src/com/copaair/webservices/Disconnect.java=UTF-8
+encoding//src/com/copaair/webservices/DisconnectResponse.java=UTF-8
+encoding//src/com/copaair/webservices/DisconnectResponseDisconnectResult.java=UTF-8
+encoding//src/com/copaair/webservices/ExecuteMessage.java=UTF-8
+encoding//src/com/copaair/webservices/ExecuteMessageHttpGet.java=UTF-8
+encoding//src/com/copaair/webservices/ExecuteMessageHttpGetResponse.java=UTF-8
+encoding//src/com/copaair/webservices/ExecuteMessageMessage.java=UTF-8
+encoding//src/com/copaair/webservices/ExecuteMessageResponse.java=UTF-8
+encoding//src/com/copaair/webservices/ExecuteMessageResponseExecuteMessageResult.java=UTF-8
+encoding//src/com/copaair/webservices/Simple.java=UTF-8
+encoding//src/com/copaair/webservices/SimpleLocator.java=UTF-8
+encoding//src/com/copaair/webservices/SimpleSoap.java=UTF-8
+encoding//src/com/copaair/webservices/SimpleSoapStub.java=UTF-8

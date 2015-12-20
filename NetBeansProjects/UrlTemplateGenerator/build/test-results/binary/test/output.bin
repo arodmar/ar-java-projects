@@ -1,0 +1,5 @@
+generateUrls
+*http://example.com?value1=2014%d&meses=1
+generateUrls
+getUrlPattern
+setUrlPattern

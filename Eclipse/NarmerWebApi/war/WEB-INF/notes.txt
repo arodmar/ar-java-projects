@@ -1,0 +1,61 @@
+JDO vs JPA
+As an overall conclusion "JPA" is a subset of what is available in "JDO". 
+
+Context Parameters
+ You can also set some context parameters which can be read from all servlets in your application. Here is how you configure a context parameter:
+
+<context-param>
+    <param-name>myParam</param-name>
+    <param-value>the value</param-value>
+</context-param>
+
+Here is how you access the parameter from inside an HttpServlet subclass:
+
+String myContextParam =
+        request.getSession()
+               .getServletContext()
+               .getInitParameter("myParam");
+    
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+<!-- 
+https://developers.google.com/appengine/docs/java/config/cron?hl=en
+  <cron>
+    <url>/recache</url>
+    <description>Repopulate the cache every 2 minutes</description>
+    <schedule>every 2 minutes</schedule>
+  </cron>
+  <cron>
+    <url>/weeklyreport</url>
+    <description>Mail out a weekly report</description>
+    <schedule>every monday 08:30</schedule>
+    <timezone>America/New_York</timezone>
+  </cron>
+  <cron>
+    <url>/weeklyreport</url>
+    <description>Mail out a weekly report</description>
+    <schedule>every monday 08:30</schedule>
+    <timezone>America/New_York</timezone>
+    <target>version-2</target>
+  </cron>
+   -->
+</cronentries>
+
+
+Property files
+InputStream is =  this.getClass().getClassLoader().getResourceAsStream("/client.properties");
+InputStream is = this.getServletContext().getResourceAsStream("/WEB-INF/client.properties");
+Properties props = new Properties();
+props.load(is);
+String whatever = props.getProperty("whatever_key");
+
+ 8 down vote accepted
+	
+
+Try putting the service.properties in WEB-INF/classes. Then it should be accessible just with :
+
+this.getClass().getClassLoader().getResourceAsStream("/filename.properties");
+
+

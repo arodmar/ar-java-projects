@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<!-- Start Jersey Rest Service Configuration -->
+	<servlet>
+		<servlet-name>jersey-serlvet</servlet-name>
+		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>jersey.config.server.provider.packages</param-name>
+			<param-value>com.ardevcenter.lnb.rest</param-value>
+		</init-param>
+		<!-- <init-param> <param-name>javax.ws.rs.Application</param-name> <param-value>com.ardevcenter.lnb.rest.CustomApplication</param-value> 
+			</init-param> -->
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>jersey-serlvet</servlet-name>
+		<url-pattern>/rest/*</url-pattern>
+	</servlet-mapping>
+	<!-- End Jersey Rest Service Configuration -->
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	<!-- Conguration Parameters -->
+	<context-param>
+		<param-name>lnbUrlForSpecificMonth</param-name>
+		<param-value><![CDATA[http://www.lnb.gob.pa/numerosjugados.php?tiposorteo=T&ano=%d&meses=%d&Consultar=Buscar]]></param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>lnbUrlForSpecificYear</param-name>
+		<param-value><![CDATA[http://www.lnb.gob.pa/numerosjugados.php?tiposorteo=T&ano=%d&meses=[1-12]&Consultar=Buscar]]></param-value>
+	</context-param>
+	<context-param>
+		<param-name>defaultTimeZone</param-name>
+		<param-value>America/Bogota</param-value>
+	</context-param>
+</web-app>

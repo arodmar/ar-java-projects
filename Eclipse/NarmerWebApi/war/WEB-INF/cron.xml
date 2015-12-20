@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/draws/add</url>
+    <description>Load new draws for wednesday,friday and sunday</description>
+    <schedule>every wed, fri, sun 14:00</schedule>
+    <timezone>America/Bogota</timezone>
+  </cron>
+   <cron>
+    <url>/draws/add</url>
+    <description>Load new draws for wednesday,friday and sunday</description>
+    <schedule>every wed, fri, sun 16:00</schedule>
+    <timezone>America/Bogota</timezone>
+  </cron>
+   <cron>
+    <url>/draws/add</url>
+    <description>Load new draws for wednesday,friday and sunday</description>
+    <schedule>every wed, fri, sun 23:00</schedule>
+    <timezone>America/Bogota</timezone>
+  </cron>
+  <!-- 
+  <cron>
+    <url>/draws/add</url>
+    <description>Load new draws for zodiac</description>
+    <schedule>every fri 23:30</schedule>
+    <timezone>America/Bogota</timezone>
+  </cron>
+    <cron>
+    <url>/draws/add</url>
+    <description>Load new draws for zodiac</description>
+    <schedule>every 2 minutes</schedule>
+    <timezone>America/Bogota</timezone>
+  </cron>
+   -->
+</cronentries>
